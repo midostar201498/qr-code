@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "outfit";
+    src: url("fonts/Outfit-VariableFont_wght.ttf")
+}
+body{
+--White: hsl(0, 0%, 100%);
+--Lightgray: hsl(212, 45%, 89%);
+--Grayishblue: hsl(220, 15%, 55%);
+--Darkblue: hsl(218, 44%, 22%);
+display: flex; justify-content: center;
+background-color:var(--Lightgray);
+}
+img{display: inline-block;height: 55%;margin: auto;border-radius: 4%;width: 90%;margin-top: 5%;}
+h1{
+    font-family: outfit;font-weight: 700;color: var(--Darkblue);text-align: center;
+}
+p{
+    font-family: outfit;font-weight: 400;color: var(--Grayishblue);font-size: 18px;text-align: center;width: 70%;margin-top: -1%;
+}
+#content{display: flex;justify-content: center;flex-wrap: wrap;
+position: absolute;bottom: 140px;
+border-radius: 4%;
+width: 22%;
+height: 650px;
+background-color: var(--White);
+}
+#container1{display: flex;justify-content: center; flex-wrap: wrap;
+margin: auto;margin-top: -8%;
+}
